@@ -1,0 +1,69 @@
+/* Mengatur ulang gaya default */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Menambahkan gaya pada body */
+body {
+  font-family: sans-serif;
+  background-color: #00FF00; /* Warna hijau */
+}
+
+/* Menambahkan gaya pada container */
+.container {
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+/* Menambahkan gaya pada judul */
+h1 {
+  text-align: center;
+}
+
+/* Menambahkan gaya pada form */
+form {
+  margin-top: 20px;
+}
+
+/* Menambahkan gaya pada label */
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Menambahkan gaya pada input */
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Menambahkan gaya pada tombol */
+button {
+  margin-top: 10px;
+  width: 100%;
+  padding: 10px;
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #000;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Menambahkan gaya pada tautan */
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* Menambahkan gaya pada hover */
+a:hover {
+  color: #333;
+}
